@@ -52,7 +52,7 @@ existing_user_ids = np.unique(user_info_df['user_id'])
 
 # 페이지 0: 초기 화면
 if st.session_state.page == 0:
-    add_bg_from_local(https://github.com/jang243/blank-app/blob/main/images/1.jpg)
+    add_bg_from_local('https://github.com/jang243/blank-app/blob/main/images/1.jpg')
     st.markdown("<div class='main'>", unsafe_allow_html=True)
     st.title("안녕하세요")
 
