@@ -44,7 +44,7 @@ def prev_page():
     st.session_state.page -= 1
 
 # 업로드된 파일 경로
-uploaded_file_path = r'C:\Users\Administrator\Desktop\dummy_user_data_with_ratings.csv'
+uploaded_file_path = https://github.com/jang243/blank-app/blob/main/Data_file/recipes3_consolidated.csv
 user_info_df = pd.read_csv(uploaded_file_path, encoding='utf-8')
 
 # 기존 사용자 ID 로드
