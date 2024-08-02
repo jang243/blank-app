@@ -52,7 +52,7 @@ existing_user_ids = np.unique(user_info_df['user_id'])
 
 # 페이지 0: 초기 화면
 if st.session_state.page == 0:
-    add_bg_from_local('C:/Users/Administrator/Desktop/1.jpg')
+    add_bg_from_local(https://github.com/jang243/blank-app/blob/main/images/1.jpg)
     st.markdown("<div class='main'>", unsafe_allow_html=True)
     st.title("안녕하세요")
 
@@ -152,7 +152,7 @@ elif st.session_state.page == 3:
 
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image(r'C:\Users\Administrator\Desktop\APP_LOGO.png', caption='앱 로고', use_column_width=True)
+        st.image('https://github.com/jang243/blank-app/blob/main/images/APP_LOGO.png', caption='앱 로고', use_column_width=True)
         st.markdown("### 메뉴")
         st.button("홈")
         st.button("종류별 레시피")
@@ -164,12 +164,12 @@ elif st.session_state.page == 3:
 
     with col2:
         st.markdown("### 오늘의 인기 레시피")
-        st.image(r'C:\Users\Administrator\Desktop\APP_first.jpg', caption='맛간장 계란비빔밥', use_column_width=True)
-        st.image(r'C:\Users\Administrator\Desktop\APP_first.jpg', caption='공원나들이 도시락', use_column_width=True)
-        st.image(r'C:\Users\Administrator\Desktop\2018013002095_0.jpg', caption='깔끔한 과일깍기', use_column_width=True)
-        st.image(r'C:\Users\Administrator\Desktop\1.jpg', caption='봄나들이 도시락', use_column_width=True)
-        st.image(r'C:\Users\Administrator\Desktop\APP_first.jpg', caption='전자렌지로 콩떡 만드는법', use_column_width=True)
-        st.image(r'C:\Users\Administrator\Desktop\2018013002095_0.jpg', caption='NO오븐 계란빵', use_column_width=True)
+        st.image('https://github.com/jang243/blank-app/blob/main/images/APP_first.jpg', caption='맛간장 계란비빔밥', use_column_width=True)
+        st.image('https://github.com/jang243/blank-app/blob/main/images/APP_first.jpg', caption='공원나들이 도시락', use_column_width=True)
+        st.image('https://github.com/jang243/blank-app/blob/main/images/APP_first.jpg', caption='깔끔한 과일깍기', use_column_width=True)
+        st.image('https://github.com/jang243/blank-app/blob/main/images/APP_first.jpg', caption='봄나들이 도시락', use_column_width=True)
+        st.image('https://github.com/jang243/blank-app/blob/main/images/APP_first.jpg', caption='전자렌지로 콩떡 만드는법', use_column_width=True)
+        st.image('https://github.com/jang243/blank-app/blob/main/images/APP_first.jpg', caption='NO오븐 계란빵', use_column_width=True)
 
     if st.button("이전"):
         prev_page()
